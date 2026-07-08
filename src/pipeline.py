@@ -1,6 +1,9 @@
 """End-to-end ETL orchestration."""
 
 import argparse
+import sys
+import os
+sys.path.insert(0, os.path.dirname(__file__))
 from extract import get_spark, read_csv, read_parquet
 from transform import (
     drop_duplicates, cast_columns, fill_nulls,
@@ -46,9 +49,14 @@ def run_pipeline(
     # Quality post-check
     assert_no_nulls(df, [agg_col] if agg_col in df.columns else [], raise_on_fail=False)
 
-    # Load
+    # Load — use parquet on clusters; fall back to CSV locally (avoids winutils on Windows)
     print(f"Writing output to {output_path} ...")
-    agg.write.mode("overwrite").parquet(output_path)
+    try:
+        agg.write.mode("overwrite").parquet(output_path)
+    except Exception:
+        csv_path = output_path.rstrip("/") + ".csv"
+        agg.toPandas().to_csv(csv_path, index=False)
+        print(f"  (Parquet unavailable locally — wrote CSV instead: {csv_path})")
     print("Done.")
 
     spark.stop()

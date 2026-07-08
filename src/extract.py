@@ -37,6 +37,9 @@ def get_spark(app_name: str = "ETL") -> SparkSession:
         # thousands of tiny output files after a groupBy on skewed data
         .config("spark.sql.adaptive.enabled", "true")
         .config("spark.sql.adaptive.coalescePartitions.enabled", "true")
+        # Hostnames with underscores are invalid in Spark URLs — use localhost
+        .config("spark.driver.host", "localhost")
+        .config("spark.driver.bindAddress", "127.0.0.1")
         .getOrCreate()
     )
 

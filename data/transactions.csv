@@ -1,0 +1,502 @@
+transaction_id,date,category,region,amount,customer_name
+1,2023-11-24,electronics,north,372.07,Diana
+2,2023-04-25,clothing,north,339.97,Bob
+3,2023-10-30,sports,north,19.75,Diana
+4,2023-04-30,books,north,282.82,BOB
+5,2023-04-23,sports,east,405.67,Alice
+6,2023-03-23,sports,east,142.55,Diana
+7,2023-06-22,electronics,north,193.06, alice
+8,2023-06-26,books,east,404.53,DIANA 
+9,2023-10-02,electronics,west,44.01,Eve
+10,2023-11-18,books,east,290.79,Bob
+11,2023-01-24,clothing,east,,Diana
+12,2023-02-21,sports,east,229.44, alice
+13,2023-03-25,food,east,108.71,Eve
+14,2023-12-26,electronics,south,269.4,Diana
+15,2023-03-25,sports,west,138.62,Diana
+16,2023-12-17,food,north,118.38,Alice
+17,2023-06-11,sports,east,37.76, alice
+18,2023-04-19,sports,west,442.92,DIANA 
+19,2023-03-15,food,south,127.08,Eve
+20,2023-10-27,sports,west,184.19,Charlie
+21,2023-09-18,,north,379.11,Bob
+22,2023-03-20,clothing,west,300.22,BOB
+23,2023-07-15,books,west,266.91,Alice
+24,2023-12-15,electronics,east,385.46, alice
+25,2023-02-27,food,west,83.29,Alice
+26,2023-05-15,books,south,256.3,Bob
+27,2023-11-17,food,south,80.66,Charlie
+28,2023-10-04,books,north,301.48,DIANA 
+29,2023-01-10,electronics,east,439.97,Eve
+30,2023-05-03,electronics,south,439.61,Bob
+31,2023-02-13,sports,north,489.1,Charlie
+32,2023-03-07,sports,south,136.2,BOB
+33,2023-04-19,books,south,357.91,BOB
+34,2023-12-10,food,west,450.31,DIANA 
+35,2023-03-03,clothing,south,36.69,Alice
+36,2023-10-29,books,south,296.28,Alice
+37,2023-02-06,electronics,south,38.36,Alice
+38,2023-06-19,electronics,south,142.85,DIANA 
+39,2023-04-20,books,south,363.06,DIANA 
+40,2023-05-05,sports,west,99.25,Bob
+41,2023-12-04,sports,east,214.67,DIANA 
+42,2023-01-28,electronics,north,204.3, alice
+43,2023-02-25,clothing,south,99.15,DIANA 
+44,2023-03-13,sports,south,142.88,Diana
+45,2023-02-08,sports,north,30.04,Alice
+46,2023-02-17,clothing,south,206.17,DIANA 
+47,2023-04-20,sports,north,86.5,Alice
+48,2023-07-19,food,west,146.2,DIANA 
+49,2023-03-21,clothing,east,112.76,Alice
+50,2023-10-24,books,north,375.25,Alice
+51,2023-01-26,books,west,253.91,Charlie
+52,2023-01-30,books,north,426.41,Bob
+53,2023-11-01,electronics,south,204.87,Diana
+54,2023-10-24,books,north,311.59,BOB
+55,2023-12-03,books,east,467.68,Diana
+56,2023-12-09,food,south,136.48,Charlie
+57,2023-12-10,food,west,161.51,Bob
+58,2023-01-05,sports,north,41.26,Diana
+59,2023-09-17,food,south,466.96,Bob
+60,2023-05-06,food,east,83.08,Eve
+61,2023-11-10,books,north,335.59,Eve
+62,2023-12-06,electronics,south,135.91,Bob
+63,2023-10-11,clothing,east,144.47,Diana
+64,2023-06-25,clothing,east,255.18,Eve
+65,2023-01-27,electronics,west,415.53,Alice
+66,2023-01-02,food,south,320.37,Eve
+67,2023-03-24,sports,west,282.65,Bob
+68,2023-02-08,clothing,north,418.12,Charlie
+69,2023-08-09,clothing,north,157.59,Alice
+70,2023-07-03,clothing,south,335.13, alice
+71,2023-10-14,sports,south,463.25,Diana
+72,2023-03-25,clothing,west,17.27, alice
+73,2023-07-30,clothing,east,83.8,Bob
+74,2023-07-15,electronics,west,115.1,DIANA 
+75,2023-06-29,food,south,115.35,Diana
+76,2023-07-24,food,east,432.85,Eve
+77,2023-06-29,books,west,341.36, alice
+78,2023-01-15,electronics,east,93.39,Eve
+79,2023-01-20,electronics,west,176.12, alice
+80,2023-08-12,books,north,195.67,Diana
+81,2023-05-11,electronics,west,5.84,Diana
+82,2023-07-06,sports,north,474.69, alice
+83,2023-11-16,food,north,361.28,Eve
+84,2023-09-17,food,west,166.46,Eve
+85,2023-10-11,clothing,south,213.12,BOB
+86,2023-12-13,clothing,east,206.01,Alice
+87,2023-06-05,food,south,217.79, alice
+88,2023-08-27,sports,west,339.44,DIANA 
+89,2023-03-28,electronics,east,260.15, alice
+90,2023-02-17,clothing,east,116.2,Diana
+91,2023-03-17,electronics,north,126.2,DIANA 
+92,2023-11-09,electronics,west,210.15,Diana
+93,2023-12-23,sports,west,202.83,Charlie
+94,2023-12-02,electronics,north,390.32,Diana
+95,2023-04-01,books,west,29.86,Diana
+96,2023-03-04,sports,south,401.7, alice
+97,2023-08-15,books,west,416.13,DIANA 
+98,2023-03-23,sports,west,133.3,Diana
+99,2023-11-23,food,west,315.24,Eve
+100,2023-08-14,electronics,east,121.07, alice
+101,2023-06-13,books,north,73.5,Diana
+102,2023-07-16,clothing,south,36.79,BOB
+103,2023-06-19,books,west,210.81,Diana
+104,2023-08-04,sports,north,429.08,BOB
+105,2023-09-02,electronics,east,152.81,BOB
+106,2023-08-03,books,south,246.67,Eve
+107,2023-08-12,sports,north,197.48,BOB
+108,2023-03-26,sports,south,490.46,Alice
+109,2023-07-21,books,north,46.55,BOB
+110,2023-03-11,sports,south,29.89,BOB
+111,2023-06-17,clothing,west,166.79,BOB
+112,2023-05-23,sports,east,418.28,DIANA 
+113,2023-01-10,books,north,499.95, alice
+114,2023-04-25,electronics,north,378.35,Diana
+115,2023-04-13,electronics,south,123.08,DIANA 
+116,2023-12-09,electronics,south,235.19,Eve
+117,2023-07-08,clothing,north,390.01,Charlie
+118,2023-06-09,electronics,north,464.8,BOB
+119,2023-07-23,clothing,north,298.09,Diana
+120,2023-02-22,food,north,399.13,Alice
+121,2023-06-27,books,west,332.45,Bob
+122,2023-09-17,food,north,425.54,DIANA 
+123,2023-02-24,sports,east,319.61,DIANA 
+124,2023-12-29,clothing,west,92.19,Eve
+125,2023-11-12,books,west,235.11,Eve
+126,2023-06-15,clothing,north,143.07,DIANA 
+127,2023-05-05,sports,west,171.52,DIANA 
+128,2023-06-16,clothing,west,110.0,Eve
+129,2023-06-24,food,east,280.12,Diana
+130,2023-02-13,clothing,west,246.85,Diana
+131,2023-12-20,sports,west,226.85,Alice
+132,2023-02-17,food,south,205.18,Diana
+133,2023-06-06,books,east,239.26, alice
+134,2023-08-06,books,east,179.15,DIANA 
+135,2023-05-19,food,east,119.12,Diana
+136,2023-06-11,electronics,south,99.81,DIANA 
+137,2023-05-22,books,east,490.35,Diana
+138,2023-06-01,clothing,east,93.82,Alice
+139,2023-12-29,books,south,140.78,Alice
+140,2023-10-11,food,south,320.75,DIANA 
+141,2023-02-22,electronics,east,237.35,DIANA 
+142,2023-06-24,clothing,north,129.98,DIANA 
+143,2023-02-28,electronics,west,248.41,Alice
+144,2023-03-19,clothing,east,47.16,Diana
+145,2023-03-02,books,west,305.13,Diana
+146,2023-09-25,sports,west,454.71,Eve
+147,2023-10-29,sports,east,286.47,Alice
+148,2023-11-09,electronics,south,314.63,Eve
+149,2023-12-05,electronics,south,123.73,Bob
+150,2023-03-22,electronics,west,228.0,DIANA 
+151,2023-05-30,electronics,south,147.61,Eve
+152,2023-12-26,sports,north,345.26,Eve
+153,2023-11-17,books,south,215.44,Diana
+154,2023-11-28,clothing,east,414.18,Bob
+155,2023-01-31,clothing,east,299.55,Eve
+156,2023-08-13,electronics,west,345.9,BOB
+157,2023-05-20,books,west,221.69,Alice
+158,2023-08-10,food,east,17.8,Diana
+159,2023-12-12,books,north,499.79,Eve
+160,2023-10-23,electronics,south,237.9,DIANA 
+161,2023-05-23,clothing,west,319.22,DIANA 
+162,2023-02-16,sports,east,207.13, alice
+163,2023-12-10,electronics,south,168.25,DIANA 
+164,2023-05-28,sports,north,230.14, alice
+165,2023-05-10,food,north,485.24,BOB
+166,2023-09-21,electronics,west,209.56,Diana
+167,2023-09-23,food,west,314.58,Alice
+168,2023-04-15,food,south,464.2,DIANA 
+169,2023-12-24,sports,north,19.29,Diana
+170,2023-12-30,clothing,east,277.67,BOB
+171,2023-02-17,clothing,north,233.42,Bob
+172,2023-11-28,clothing,west,466.66,Eve
+173,2023-09-18,food,west,418.19,DIANA 
+174,2023-05-05,sports,south,194.88,Charlie
+175,2023-02-05,food,west,173.24,Eve
+176,2023-01-02,food,east,419.55,DIANA 
+177,2023-03-18,sports,west,175.84,BOB
+178,2023-08-22,food,south,490.48,Diana
+179,2023-10-20,sports,south,428.73,BOB
+180,2023-01-23,food,west,354.09,BOB
+181,2023-07-17,clothing,west,482.59,Charlie
+182,2023-09-15,books,east,435.5,DIANA 
+183,2023-02-21,books,west,12.6,Charlie
+184,2023-07-29,clothing,north,237.4,Eve
+185,2023-06-23,books,west,326.67, alice
+186,2023-12-12,books,west,477.3,DIANA 
+187,2023-10-05,electronics,north,121.21,Eve
+188,2023-04-27,electronics,west,489.28,Bob
+189,2023-08-16,clothing,east,452.19,Alice
+190,2023-06-16,electronics,east,182.44,BOB
+191,2023-03-16,clothing,west,285.13,Charlie
+192,2023-03-29,clothing,north,306.7,BOB
+193,2023-11-14,clothing,west,456.85,Charlie
+194,2023-04-29,sports,east,232.49,Alice
+195,2023-08-27,food,south,41.56, alice
+196,2023-10-28,food,west,346.71,DIANA 
+197,2023-06-04,clothing,west,427.4,Bob
+198,2023-05-02,sports,east,289.53,Eve
+199,2023-01-12,sports,east,9.01,Alice
+200,2023-11-07,sports,east,388.99,Diana
+201,2023-11-07,food,south,320.13,Eve
+202,2023-12-14,clothing,north,452.18,Alice
+203,2023-06-08,sports,north,291.89,Charlie
+204,2023-02-16,food,east,375.0,Charlie
+205,2023-04-13,clothing,east,267.77,Eve
+206,2023-03-26,food,west,483.86,Eve
+207,2023-06-23,electronics,west,481.63,Charlie
+208,2023-04-26,sports,east,49.7,BOB
+209,2023-01-08,food,north,230.12,Eve
+210,2023-10-27,sports,east,58.63,Diana
+211,2023-08-30,electronics,east,458.05,Diana
+212,2023-11-28,electronics,west,455.15,Eve
+213,2023-11-29,sports,north,74.19,Alice
+214,2023-06-05,sports,north,53.11,Charlie
+215,2023-07-18,sports,east,336.89,BOB
+216,2023-10-28,clothing,west,329.19,DIANA 
+217,2023-11-12,sports,east,21.19, alice
+218,2023-04-22,sports,west,475.52, alice
+219,2023-02-20,food,east,34.97,Eve
+220,2023-04-08,electronics,west,50.38,Diana
+221,2023-11-25,books,north,30.04, alice
+222,2023-05-05,clothing,south,38.96,Diana
+223,2023-10-28,clothing,south,167.64,Charlie
+224,2023-11-02,electronics,east,429.91,Charlie
+225,2023-03-08,books,east,400.26,Bob
+226,2023-12-05,electronics,south,12.36,Diana
+227,2023-10-29,food,north,91.25,Alice
+228,2023-03-06,sports,north,374.1,DIANA 
+229,2023-08-18,food,north,228.74,Diana
+230,2023-11-11,electronics,east,231.73,Alice
+231,2023-02-01,sports,west,216.01,Bob
+232,2023-09-09,sports,north,450.14, alice
+233,2023-11-08,clothing,north,67.46, alice
+234,2023-07-15,books,east,229.59,BOB
+235,2023-02-20,electronics,south,217.88,Diana
+236,2023-07-31,food,west,202.37,Bob
+237,2023-06-10,sports,east,334.23, alice
+238,2023-03-20,sports,north,50.16,Bob
+239,2023-02-17,sports,north,373.57, alice
+240,2023-03-08,books,north,295.3, alice
+241,2023-12-10,electronics,west,180.03,BOB
+242,2023-01-27,food,east,179.06,Diana
+243,2023-03-21,sports,south,424.4, alice
+244,2023-10-12,food,north,382.49,Diana
+245,2023-08-08,books,north,306.45,Eve
+246,2023-01-15,clothing,east,352.84,Eve
+247,2023-06-23,food,north,94.8,Charlie
+248,2023-10-17,sports,north,75.23,Alice
+249,2023-02-16,books,south,191.22,DIANA 
+250,2023-06-24,clothing,east,159.26, alice
+251,2023-10-18,books,north,442.25,Charlie
+252,2023-03-22,books,north,338.61,Eve
+253,2023-08-15,sports,west,305.5,BOB
+254,2023-05-20,clothing,north,175.86,Bob
+255,2023-05-26,books,west,265.83,Eve
+256,2023-01-24,clothing,west,492.3,Alice
+257,2023-01-04,clothing,east,472.94,Charlie
+258,2023-05-11,food,east,64.39,DIANA 
+259,2023-08-09,clothing,south,193.2,Diana
+260,2023-09-14,books,east,40.68,Alice
+261,2023-08-12,electronics,west,460.98, alice
+262,2023-10-22,sports,west,356.2,BOB
+263,2023-05-29,electronics,west,15.32, alice
+264,2023-03-29,books,west,416.85, alice
+265,2023-02-15,sports,north,125.44,BOB
+266,2023-09-26,electronics,west,435.91, alice
+267,2023-04-24,food,south,42.81,Bob
+268,2023-09-29,books,south,453.43, alice
+269,2023-06-29,clothing,south,55.89,Eve
+270,2023-04-12,clothing,south,381.31,Bob
+271,2023-04-01,sports,west,378.45,DIANA 
+272,2023-12-15,books,east,432.8, alice
+273,2023-03-19,sports,north,237.12,Eve
+274,2023-05-21,books,north,179.21,Bob
+275,2023-06-08,sports,west,23.62, alice
+276,2023-05-27,electronics,north,309.43,BOB
+277,2023-08-25,books,north,227.62,Diana
+278,2023-06-14,books,west,253.18,Alice
+279,2023-08-19,electronics,east,491.28,Bob
+280,2023-09-16,clothing,north,127.63,DIANA 
+281,2023-08-13,books,south,185.13,Eve
+282,2023-07-18,sports,east,341.05,Alice
+283,2023-11-20,food,north,168.2,BOB
+284,2023-05-26,food,south,170.01,Charlie
+285,2023-06-29,food,west,68.83,Bob
+286,2023-06-08,books,west,323.53, alice
+287,2023-03-07,books,north,324.78,BOB
+288,2023-09-18,food,north,184.49,Charlie
+289,2023-04-20,food,west,100.04,Charlie
+290,2023-03-21,electronics,east,422.99,Bob
+291,2023-09-17,books,north,332.65,Charlie
+292,2023-11-02,sports,south,85.31,Charlie
+293,2023-08-13,electronics,west,185.33,Diana
+294,2023-08-16,books,east,377.43,DIANA 
+295,2023-04-30,books,south,158.19,DIANA 
+296,2023-04-10,food,west,233.53,Eve
+297,2023-07-15,books,west,483.3,Diana
+298,2023-11-06,clothing,east,30.83,DIANA 
+299,2023-07-10,books,north,357.14,Bob
+300,2023-05-26,electronics,south,140.03,Charlie
+301,2023-08-12,electronics,south,409.27, alice
+302,2023-01-14,sports,north,201.24, alice
+303,2023-05-01,sports,north,190.58,Alice
+304,2023-06-13,electronics,east,396.73,Charlie
+305,2023-01-20,food,west,349.56,Charlie
+306,2023-12-28,sports,west,309.6,Bob
+307,2023-01-10,food,south,418.31,BOB
+308,2023-02-26,food,south,154.07,Alice
+309,2023-05-03,sports,west,36.09,DIANA 
+310,2023-11-02,books,north,317.82,Diana
+311,2023-03-15,food,west,5.77, alice
+312,2023-05-04,books,west,97.72,Bob
+313,2023-09-26,food,north,476.93,Alice
+314,2023-07-19,sports,north,319.66, alice
+315,2023-05-10,electronics,east,395.32, alice
+316,2023-05-04,electronics,east,71.04, alice
+317,2023-10-07,food,south,416.04,DIANA 
+318,2023-12-23,sports,south,406.69,Bob
+319,2023-08-23,electronics,east,104.79,Diana
+320,2023-01-22,food,east,260.11,DIANA 
+321,2023-05-10,electronics,south,146.62,Alice
+322,2023-12-02,food,east,66.62, alice
+323,2023-08-12,sports,west,447.85,BOB
+324,2023-06-23,clothing,west,347.57, alice
+325,2023-09-23,food,north,364.91,Bob
+326,2023-08-09,books,south,275.01, alice
+327,2023-02-22,electronics,east,332.16,Eve
+328,2023-08-17,books,west,87.49,DIANA 
+329,2023-06-29,sports,north,364.77, alice
+330,2023-11-11,sports,east,321.54,Alice
+331,2023-02-08,sports,east,258.98,Charlie
+332,2023-01-16,clothing,west,22.23,Bob
+333,2023-05-01,food,east,194.51,Alice
+334,2023-11-06,clothing,west,474.67, alice
+335,2023-08-16,electronics,south,267.08,BOB
+336,2023-06-10,food,south,480.46,Alice
+337,2023-04-06,sports,west,457.2,Bob
+338,2023-05-15,food,west,111.21,Eve
+339,2023-12-22,sports,south,65.71,Bob
+340,2023-08-20,clothing,west,498.64, alice
+341,2023-12-08,food,north,277.25,Eve
+342,2023-06-03,clothing,south,397.88,Diana
+343,2023-03-04,clothing,south,122.18,DIANA 
+344,2023-01-14,food,east,236.37,Charlie
+345,2023-11-10,electronics,north,158.1,DIANA 
+346,2023-09-27,sports,west,412.55,Bob
+347,2023-03-06,food,north,227.74, alice
+348,2023-03-07,books,south,385.05,Charlie
+349,2023-08-10,books,north,416.54,Charlie
+350,2023-06-05,clothing,south,164.72,Diana
+351,2023-06-27,books,east,423.74,Eve
+352,2023-04-11,books,east,66.96,Eve
+353,2023-11-11,books,north,253.77,Charlie
+354,2023-10-31,books,south,89.74, alice
+355,2023-10-16,electronics,north,45.21,Eve
+356,2023-11-30,clothing,west,310.96,Alice
+357,2023-09-12,books,east,322.74,Eve
+358,2023-09-05,clothing,west,152.23,Bob
+359,2023-12-19,electronics,south,222.6,DIANA 
+360,2023-08-26,clothing,east,305.3, alice
+361,2023-06-13,food,west,69.73, alice
+362,2023-09-21,books,north,162.96,DIANA 
+363,2023-03-04,food,west,127.72,Bob
+364,2023-01-26,food,west,432.76,BOB
+365,2023-05-08,clothing,east,467.21, alice
+366,2023-04-08,clothing,west,498.0,DIANA 
+367,2023-09-13,food,west,16.47,BOB
+368,2023-09-16,sports,south,111.5, alice
+369,2023-01-25,electronics,east,249.97,DIANA 
+370,2023-05-27,books,north,424.35,BOB
+371,2023-03-10,food,east,383.11, alice
+372,2023-01-24,sports,north,287.29,Diana
+373,2023-07-05,books,east,41.4,DIANA 
+374,2023-10-09,food,north,68.69,Bob
+375,2023-07-21,food,east,281.13, alice
+376,2023-03-15,clothing,west,252.54,Alice
+377,2023-01-20,clothing,east,402.96,DIANA 
+378,2023-03-18,books,south,167.34, alice
+379,2023-03-25,sports,east,298.89,DIANA 
+380,2023-12-29,books,east,240.07,Alice
+381,2023-07-08,food,north,490.05,Eve
+382,2023-12-19,electronics,west,136.44,Diana
+383,2023-01-27,books,west,89.4,BOB
+384,2023-03-17,clothing,north,288.42,Bob
+385,2023-04-08,electronics,west,160.28,Charlie
+386,2023-07-31,clothing,west,253.4,DIANA 
+387,2023-02-01,clothing,south,282.64,DIANA 
+388,2023-09-27,sports,east,478.56,DIANA 
+389,2023-09-30,food,east,339.55,Eve
+390,2023-11-09,sports,south,478.88,Eve
+391,2023-10-13,food,south,471.04,Eve
+392,2023-05-28,clothing,west,161.94, alice
+393,2023-10-14,food,east,65.33,BOB
+394,2023-07-22,food,south,148.77,Eve
+395,2023-02-10,food,west,329.71,DIANA 
+396,2023-04-20,clothing,east,466.85,Eve
+397,2023-03-12,electronics,south,125.02,Diana
+398,2023-11-23,clothing,north,54.6, alice
+399,2023-08-30,electronics,south,7.56,Charlie
+400,2023-07-28,sports,west,327.02,Eve
+401,2023-06-14,food,north,454.43,Bob
+402,2023-11-30,books,south,269.9,Alice
+403,2023-03-31,sports,south,467.29,Alice
+404,2023-07-23,sports,south,468.62,Eve
+405,2023-01-20,electronics,east,286.14,Bob
+406,2023-06-21,food,west,494.6,DIANA 
+407,2023-03-10,books,west,140.05,Bob
+408,2023-06-19,clothing,west,325.9,Charlie
+409,2023-01-08,food,east,286.05,Diana
+410,2023-03-31,books,west,414.36, alice
+411,2023-02-14,sports,north,96.47,Charlie
+412,2023-09-02,food,south,8.38,BOB
+413,2023-05-01,sports,east,477.25,Eve
+414,2023-10-26,books,north,134.47, alice
+415,2023-12-21,clothing,north,335.55,DIANA 
+416,2023-06-07,clothing,west,344.61,Eve
+417,2023-12-20,electronics,east,186.93,Diana
+418,2023-04-23,clothing,west,80.83, alice
+419,2023-08-01,books,west,379.89,Diana
+420,2023-05-07,books,north,265.13, alice
+421,2023-02-09,books,north,35.57,Diana
+422,2023-10-21,books,south,86.45,DIANA 
+423,2023-03-01,clothing,west,50.02,DIANA 
+424,2023-01-29,sports,south,259.06,DIANA 
+425,2023-10-16,electronics,west,338.02,Eve
+426,2023-01-12,sports,east,409.14,Diana
+427,2023-10-24,electronics,north,214.73,Bob
+428,2023-10-05,electronics,north,493.14,DIANA 
+429,2023-01-17,food,west,94.09,Charlie
+430,2023-11-25,sports,east,496.46,BOB
+431,2023-08-18,sports,west,44.72,Charlie
+432,2023-12-01,food,north,93.34,BOB
+433,2023-09-28,clothing,south,418.24,Alice
+434,2023-06-02,sports,west,268.31,Diana
+435,2023-05-07,sports,east,81.79,Diana
+436,2023-02-27,electronics,west,309.39,Alice
+437,2023-05-04,clothing,north,54.94,Alice
+438,2023-08-17,books,north,126.14,Alice
+439,2023-07-25,sports,south,272.18,Alice
+440,2023-03-13,books,east,120.91, alice
+441,2023-10-23,books,east,122.27,Charlie
+442,2023-12-05,books,south,209.71,Eve
+443,2023-02-01,books,south,314.87,BOB
+444,2023-10-12,sports,north,486.28,BOB
+445,2023-09-26,food,west,207.09,Eve
+446,2023-07-12,clothing,west,124.28,Diana
+447,2023-06-03,clothing,west,457.8,BOB
+448,2023-08-02,books,south,197.27,Eve
+449,2023-04-15,food,north,461.5, alice
+450,2023-02-17,books,south,30.51,BOB
+451,2023-12-11,books,north,437.44,Diana
+452,2023-10-28,books,south,242.3, alice
+453,2023-06-05,electronics,south,468.89,Bob
+454,2023-09-03,clothing,south,201.33,Diana
+455,2023-10-10,food,east,193.43, alice
+456,2023-06-07,food,east,258.84,DIANA 
+457,2023-08-27,electronics,west,382.01, alice
+458,2023-04-15,food,east,209.9,Diana
+459,2023-03-16,electronics,east,278.89,BOB
+460,2023-06-01,clothing,south,168.28,BOB
+461,2023-10-19,clothing,west,277.57, alice
+462,2023-05-12,sports,west,233.11, alice
+463,2023-03-28,clothing,west,96.1,Alice
+464,2023-09-26,electronics,north,472.87,Alice
+465,2023-01-04,sports,south,422.06,Diana
+466,2023-02-04,clothing,north,113.27,DIANA 
+467,2023-07-11,electronics,west,331.35,Alice
+468,2023-01-04,books,west,10.87,Eve
+469,2023-10-02,food,north,253.6,BOB
+470,2023-04-02,electronics,north,264.57,Diana
+471,2023-04-09,books,east,408.53,Eve
+472,2023-07-23,electronics,east,479.85,DIANA 
+473,2023-10-17,clothing,south,153.49,Bob
+474,2023-12-01,electronics,north,205.61,BOB
+475,2023-10-10,sports,north,320.19,Charlie
+476,2023-02-12,sports,west,324.23, alice
+477,2023-10-17,electronics,north,118.73,DIANA 
+478,2023-05-19,electronics,north,343.79,Eve
+479,2023-10-06,books,north,93.78, alice
+480,2023-01-09,clothing,south,377.37,BOB
+481,2023-02-09,food,south,284.16,BOB
+482,2023-12-13,books,east,195.0,Charlie
+483,2023-12-19,electronics,east,31.58,BOB
+484,2023-04-29,electronics,east,304.56,BOB
+485,2023-06-17,electronics,east,392.86,DIANA 
+486,2023-09-09,clothing,east,278.75,BOB
+487,2023-08-10,clothing,west,47.42,Eve
+488,2023-05-07,electronics,north,137.65,BOB
+489,2023-12-31,clothing,west,161.76,Bob
+490,2023-02-16,electronics,east,225.14,Eve
+491,2023-02-22,clothing,north,97.76,DIANA 
+492,2023-10-13,books,west,56.13,Bob
+493,2023-07-01,books,north,300.48, alice
+494,2023-07-17,electronics,east,209.84,Bob
+495,2023-10-14,clothing,south,344.23,Charlie
+496,2023-03-13,food,east,137.86,Charlie
+497,2023-02-02,clothing,west,141.6,Eve
+498,2023-09-05,electronics,east,129.59,Diana
+499,2023-11-17,sports,south,231.64,Charlie
+500,2023-06-05,electronics,west,169.45,BOB
+6,2023-03-23,sports,east,142.55,Diana
