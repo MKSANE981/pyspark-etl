@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Stack](https://img.shields.io/badge/Stack-PySpark%203.x%20%7C%20pandas%20%7C%20pytest-orange)
 
-A production-style ETL pipeline built with PySpark, covering ingestion from multiple
+An ETL pipeline built with PySpark, covering ingestion from multiple
 sources, complex transformations, data quality checks, and partitioned output.
 
 Designed for large-scale batch processing scenarios (e-commerce, telco, finance).
